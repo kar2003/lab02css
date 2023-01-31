@@ -1,0 +1,22 @@
+ul,
+ol
+{
+    font-size: 20px;
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 30px;
+}
+ ul{
+    list-style-type:square;
+ }  
+ol{
+    list-style-type: lower-roman;
+} 
+
+li
+{
+    line-height: 30px;
+    text-align: left;
+}
+
+

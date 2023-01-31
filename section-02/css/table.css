@@ -1,0 +1,53 @@
+/*the playlist table*/
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #f2f1f1;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 100%;
+
+}
+thead th:nth-child(1) {
+    width: 40%;
+    text-align: center;
+
+}
+
+thead th:nth-child(2) {
+    width: 40%;
+    text-align: center;
+
+}
+
+thead th:nth-child(3) {
+    width: 40%;
+    text-align: center;
+
+}
+
+th,
+td{
+    padding: 15px;
+    text-align: center;
+}
+thead th{
+    text-align: left;
+    
+}
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3){
+    text-align: center;
+    
+}
+tfoot td{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+/*setup zebra stripping - */
+
+tbody tr:nth-last-of-type(even){
+    background-color: rgb(199, 193, 193);
+}

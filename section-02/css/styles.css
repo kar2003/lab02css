@@ -1,0 +1,59 @@
+
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+    background-color: rgb(255, 249, 184);
+    
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+    font-size: 30px;
+    text-align: center
+    
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+
+}
+
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto; 
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    padding: 40px;
+
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+footer {
+    margin-top: 20px;
+    text-align: right;
+    font-size: small;
+}

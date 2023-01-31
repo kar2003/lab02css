@@ -1,0 +1,33 @@
+/*styling links*/
+.wrapper header nav a{
+    flex: 1;
+    background-color: rgb(27, 72, 87);
+    text-decoration: none;
+    outline: none;
+    padding: 12px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+    font-weight: 700;
+}
+
+.wrapper header nav a:active,
+.wrapper header nav a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.wrapper header nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+.flex div p a,
+.flex div a{
+    text-decoration: none;
+    color:green;
+    font-weight: 700;
+
+}
